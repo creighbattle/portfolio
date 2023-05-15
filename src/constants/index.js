@@ -152,6 +152,7 @@ const projects = [
     ],
     image: bakery,
     source_code_link: "https://github.com/creighbattle/BakeryDemo",
+    page: "https://creighbattle.github.io/BakeryDemo/",
   },
   {
     name: "Netflix Clone",
@@ -173,6 +174,7 @@ const projects = [
     ],
     image: netflix,
     source_code_link: "https://github.com/creighbattle/Netflix-Clone",
+    page: "https://netflix-clone-91a3f.web.app/",
   },
 ];
 
