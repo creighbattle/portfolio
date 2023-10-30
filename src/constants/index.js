@@ -30,6 +30,8 @@ import hcl from "../assets/company/hcl.jpeg";
 import stockton from "../assets/company/stockton.png";
 import bakery from "../assets/bakery.png";
 import netflix from "../assets/netflix.png";
+import barbershop from "../assets/barbershop-template.png";
+import storybook from "../assets/story-book-imgs.png";
 
 export const navLinks = [
   {
@@ -133,9 +135,9 @@ const testimonials = [{}];
 
 const projects = [
   {
-    name: "Bakery Demo",
+    name: "Barbershop Template",
     description:
-      "Simple web application showing basics in html, css, and javascript",
+      "Full stack web application that utilizes NextJS, TailwindCSS, Firebase, & DigitalOcean.",
     tags: [
       {
         name: "html",
@@ -150,14 +152,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: bakery,
-    source_code_link: "https://github.com/creighbattle/BakeryDemo",
-    page: "https://creighbattle.github.io/BakeryDemo/",
+    image: barbershop,
+    //source_code_link: "https://github.com/creighbattle/BakeryDemo",
+    page: "https://cbscreationsllc.vercel.app/",
   },
   {
-    name: "Netflix Clone",
+    name: "My Story Book App",
     description:
-      "A React application demostrating reusable components and modern styling",
+      "A full stack Expo/React-native mobile application that allows users to capture their day by journaling & uploading videos/images. It's purpose serves to capture your life's story.",
     tags: [
       {
         name: "react",
@@ -172,9 +174,31 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: netflix,
-    source_code_link: "https://github.com/creighbattle/Netflix-Clone",
-    page: "https://netflix-clone-91a3f.web.app/",
+    image: storybook,
+    //source_code_link: "https://github.com/creighbattle/Netflix-Clone",
+    page: "https://apps.apple.com/us/app/story-book/id6446295304",
+  },
+  {
+    name: "Bakery Design",
+    description:
+      "A Frontend application showing off the basics of HTML, CSS, and Javascript.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bakery,
+    //source_code_link: "https://github.com/creighbattle/Netflix-Clone",
+    page: "https://creighbattle.github.io/BakeryDemo/",
   },
 ];
 
