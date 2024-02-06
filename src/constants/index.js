@@ -32,6 +32,7 @@ import bakery from "../assets/bakery.png";
 import netflix from "../assets/netflix.png";
 import barbershop from "../assets/barbershop-template.png";
 import storybook from "../assets/story-book-imgs.png";
+import lifebuddy from "../assets/2.png";
 
 export const navLinks = [
   {
@@ -134,6 +135,28 @@ const experiences = [
 const testimonials = [{}];
 
 const projects = [
+  {
+    name: "LifeBuddy-AI",
+    description:
+      "ChatGpt clone using NextJs, Nosql, Google Cloud Functions, DigitalOcean Spaces, Tailwindcss, OpenAi Assistant Api, & Stripe Api.",
+    tags: [
+      {
+        name: "FullStack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cloud",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lifebuddy,
+    //source_code_link: "https://github.com/creighbattle/BakeryDemo",
+    page: "https://lifebuddy-ai.vercel.app/",
+  },
   {
     name: "Barbershop Template",
     description:
